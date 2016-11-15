@@ -3,7 +3,8 @@
 
 <head>
     <title>Crystal Collecter</title>
-    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
+     <script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
@@ -28,14 +29,16 @@
     </div>
     <div id="winlose">
         <p>Wins:</p>
+        <p id="win"></p>
         <br>
         <p>Losses:</p>
+        <p id="loss"></p>
     </div>
     <div id="crystals">
-        <img class="img" src="assets/images/crystal1.jpg">
-        <img class="img" src="assets/images/crystal2.jpg">
-        <img class="img" src="assets/images/crystal3.jpg">
-        <img class="img" src="assets/images/crystal4.jpg">
+        <img id="img1" class="img" src="assets/images/crystal1.jpg">
+        <img id="img2" class="img" src="assets/images/crystal2.jpg">
+        <img id="img3" class="img" src="assets/images/crystal3.jpg">
+        <img id="img4" class="img" src="assets/images/crystal4.jpg">
     </div>
     <div id="total">
         <p>Your total score is:</p>
@@ -44,8 +47,8 @@
         <p></p>
     </div>
 
-
-
+    <script src="assets/javascript/game.js"></script>
+    
 
 </body>
 

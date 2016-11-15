@@ -1,80 +1,100 @@
 body{
 	background-image:url(https://images.freecreatives.com/wp-content/uploads/2016/04/Amazing-Blue-3D-Crystal-Wallpaper.jpg);
+	margin:10px;
 }
 
 
 #header{
-	font-family: 'Merriweather Sans', sans-serif;
+	font-family: 'Shrikhand', cursive;
 	background:#3f69f9;
 	color:white;
 	padding-top:30px;	
 	padding-bottom:30px;
 	float:left;
-	padding-right:10%;
+	padding-right:40px;
 	text-align:center;
 	padding-left:40px;
 	font-size:30px;
 	border:2px solid white;
+	margin:3px;
 
 }
 .container{
-	font-family: 'Merriweather Sans', sans-serif;
+	font-family: 'Shrikhand', cursive;
 	background:white;
 	color:blue;
 	clear:both;
 	width:640px;
-	height:230px;
+	height:210px;
 	padding-top:25px;
 	border:2px solid blue;
 	padding-left:20px;
+	padding-right:20px;
 	
 }
 #randnum{
-	font-family: 'Merriweather Sans', sans-serif;
+	font-family: 'Shrikhand', cursive;
 	background:#40f5a9;
 	width:20%;
 	height:50px;
 	float:left;
 	padding-top:35px;
 	text-align:center;
-	border:4px solid blue;
 	color:darkgreen;
+	margin:3px;
 
 }
 #winlose{
-	font-family: 'Merriweather Sans', sans-serif;
+	
 	height:70px;
 	background:#fa90a6;
 	float:left;
-	width:133px;
-	text-align:center;
+	width:134px;
 	padding-top:15px;
-	border:4px solid blue;
+	font-family: 'Shrikhand', cursive;
 	color:darkred;
+	text-align:center;
+	margin:3px;
+}
+#win{
+	font-family: 'Shrikhand', cursive;
+	color:darkred;
+	text-align:center;
+}
+#loss{
+	font-family: 'Shrikhand', cursive;
+	color:darkred;
+	text-align:center;
 }
 #crystals{
 	clear:both;
 	background: blue;
 	width:420px;
 	height:102px;
-
+	margin:3px;
 
 }
 #total{
-	font-family: 'Merriweather Sans', sans-serif;
+	font-family: 'Shrikhand', cursive;
 	clear:both;
 	background:#ff3f24;
 	border: 1px solid black;
-	width:15%;
+	width:206px;
 	height:25px;
 	text-align:center;
 	padding-top:5px;
+	margin:3px;
 }
 #score{
 	background:#ff3f24;
-	width:15%;
-	height:75px;
+	width:206px;
+	height:55px;
 	border:1px solid black;
+	font-family: 'Shrikhand', cursive;
+	font-size:30px;
+	text-align:center;
+	padding-top:25px;
+	margin:3px;
 
 }
 .img{
@@ -82,4 +102,20 @@ body{
 	width:100px;
 	border: 1px solid black;
 	background:white;
+}
+#img1{
+
+}
+
+#img2{
+
+
+}
+#img3{
+
+
+}	
+#img3{
+
+	
 }
