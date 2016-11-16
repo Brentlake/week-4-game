@@ -20,9 +20,9 @@ $(document).ready(function() {
 
     $('#img1').click(function() {
     	crystal1 = Math.floor((Math.random()*12)+1);
-    	
-    	console.log(crystal1);
 
+    	console.log(crystal1);
+    	$("#score").text(crystal1);
 
 
 
@@ -32,12 +32,16 @@ $(document).ready(function() {
     $('#img2').click(function() {
     	crystal2 = Math.floor((Math.random()*12)+1);
     	console.log(crystal2);
+    	$("#score").text(crystal2);
 
 
 });
     $('#img3').click(function() {
     	crystal3 = Math.floor((Math.random()*12)+1);
     	console.log(crystal3);
+    	$("#score").text(crystal3);
+    	
+    	
 
 
 
@@ -45,18 +49,18 @@ $(document).ready(function() {
     $('#img4').click(function() {
     	crystal4 = Math.floor((Math.random()*12)+1);
     	console.log(crystal4);
-
+    	$("#score").text(crystal4);
 
 
 });
+
     function randomIntFromInterval(min,max){
 	return Math.floor(Math.random()*(max-min+1)+min);
 }
   
-	$('#img1', '#img2', '#img3', '#img4').on('click', function(){
-	counter = counter + parseInt($(this).data('num'));
+
 		   
-	$('#score').text(counter);
+	
     
 
    
@@ -65,5 +69,3 @@ $(document).ready(function() {
 
 });
 
-
-    });
