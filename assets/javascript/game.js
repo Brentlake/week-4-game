@@ -5,20 +5,65 @@ $(document).ready(function() {
     var wins = 0;
     var losses = 0;
     var score = 0;
+    var random =randomIntFromInterval(19,120);
+    $('#randnum').text(random);
+	$('#score').text(counter);
     $('#score').text(score);
     $('#win').text(wins);
     $('#loss').text(losses);
 
-    crystals = ['assets/images/crystal1.jpg','assets/images/crystal2.jpg','assets/images/crystal3.jpg','assets/images/crystal4.jpg'];
+    var crystal1 = 0;
+    var crystal2 = 0;
+    var crystal3 = 0;
+    var crystal4 = 0;
 
-    
+
+    $('#img1').click(function() {
+    	crystal1 = Math.floor((Math.random()*12)+1);
+    	
+    	console.log(crystal1);
+
+
+
+
+
+});
+
+    $('#img2').click(function() {
+    	crystal2 = Math.floor((Math.random()*12)+1);
+    	console.log(crystal2);
+
+
+});
+    $('#img3').click(function() {
+    	crystal3 = Math.floor((Math.random()*12)+1);
+    	console.log(crystal3);
+
+
+
+});
+    $('#img4').click(function() {
+    	crystal4 = Math.floor((Math.random()*12)+1);
+    	console.log(crystal4);
+
+
+
+});
+    function randomIntFromInterval(min,max){
+	return Math.floor(Math.random()*(max-min+1)+min);
+}
+  
+	$('#img1', '#img2', '#img3', '#img4').on('click', function(){
+	counter = counter + parseInt($(this).data('num'));
+		   
+	$('#score').text(counter);
     
 
    
 
 
 
-
+});
 
 
     });
